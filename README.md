@@ -1,7 +1,7 @@
 # Jeopardy
 
 A jeopardy-like web based game that is fed with questions from a JSON file.
-Played with two teams.
+Played with two teams, state is stored in local storage automatically.
 
 
 ## File format
@@ -22,4 +22,4 @@ Place your theme song as that file. Playback happens in a loop.
 
 ## Serving
 Can be statically served w/out pre-processing.
-For local development, have python installed and run `run.sh`
+For local development, have python installed and run `run.sh`, accessible on :7777
