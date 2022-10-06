@@ -6,7 +6,7 @@ Played with two teams, state is stored in local storage automatically.
 
 ## File format
 
-```js
+```json5
 {
 	// Keys are the categories
 	"Category name": [
@@ -22,4 +22,4 @@ Place your theme song as that file. Playback happens in a loop.
 
 ## Serving
 Can be statically served w/out pre-processing.
-For local development, have python installed and run `run.sh`, accessible on :7777
+For local development, have `python3` installed and run `run.sh`, accessible on :7777

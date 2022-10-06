@@ -1,3 +1,3 @@
 #!/bin/sh
 
-python -m SimpleHTTPServer 7777
+python3 -m http.server 7777
